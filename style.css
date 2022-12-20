@@ -10,8 +10,7 @@ body {
 }
 
 .first-section {
-    /*background: rgba(0, 0, 0, 0.2);*/
-    background-color: beige;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .menu {
@@ -28,12 +27,12 @@ body {
     padding: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end; /* Alinha os itens do menu à esquerda */
 }
 
 .menu li {
     display: inline-block;
-    padding: 20px;
+    padding: 20px; /* Reduz o espaçamento entre os itens do menu */
     color: white;
 }
 
@@ -41,7 +40,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 25px;
+    font-size: larger;
 }
 
 .rounded-image {
