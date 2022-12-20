@@ -1,73 +1,52 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Meu Portfólio</title>
-    <style>
-        /* Define o estilo para o menu */
-        .menu {
-            background-color: lightgray;
-            text-align: center;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-        }
-
-        /* Define o estilo para os itens do menu */
-        .menu a {
-            display: inline-block;
-            padding: 10px;
-            font-size: large;
-            font-weight: bold;
-            color: black;
-            text-decoration: none;
-        }
-
-        /* Define o estilo para a imagem de fundo */
-        body {
-            background-image: url('imagem1.png');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-
-        /* Define o estilo para as seções */
-        .section {
-            width: 800px;
-            margin: 50px auto;
-            background-color: rgba(255, 255, 255, 0.5);
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
-    <!-- Cria o menu no topo da página -->
+  <div class="section first-section">
     <div class="menu">
-        <a href="#sobre-mim">Sobre Mim</a> |
-        <a href="#experiencia">Experiência</a> |
-        <a href="#trabalhos">Trabalhos</a>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
     </div>
-
-    <!-- Cria a seção "Sobre Mim" -->
-    <div class="section" id="sobre-mim">
-        <h1>Sobre Mim</h1>
-        <p>Conteúdo da sua seção "Sobre Mim" aqui</p>
+    <div class="center">
+      <img src="imagem1.png" class="rounded-image">
+      <h1>Nome da pessoa</h1>
+      <p>Descrição</p>
     </div>
-
-    <!-- Cria a seção "Experiência" -->
-    <div class="section" id="experiencia">
-        <h1>Experiência</h1>
-        <p>Conteúdo da sua seção "Experiência" aqui</p>
+  </div>
+  <div class="section second-section">
+    <img src="imagem2.jpg" class="section-image">
+    <div class="section-text">
+      <h1>Título</h1>
+      <p>Informações</p>
+      <button>Download</button>
     </div>
-
-    <!-- Cria a seção "Trabalhos" -->
-    <div class="section" id="trabalhos">
-        <h1>Trabalhos</h1>
-        <p>Conteúdo da sua seção "Trabalhos" aqui</p>
+  </div>
+  <div class="section third-section">
+    <h1>Título</h1>
+    <h2>Subtítulo</h2>
+    <div class="boxes">
+      <div class="box">
+        <h3>Título</h3>
+        <p>Informações</p>
+      </div>
+      <div class="box">
+        <h3>Título</h3>
+        <p>Informações</p>
+      </div>
+      <div class="box">
+        <h3>Título</h3>
+        <p>Informações</p>
+      </div>
+      <div class="box">
+        <h3>Título</h3>
+        <p>Informações</p>
+      </div>
     </div>
+  </div>
 </body>
-
 </html>
