@@ -60,15 +60,22 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center left;
+    width: 350px;
+    height: 400px;
+    margin: auto;
 }
 
 .section-text {
     width: 50%;
-    padding: 20px;
+    padding: 15px;
+    margin-left: -150px;
+    margin-top: -40px;
+    padding-right: 150px;
 }
 
 .section-text h1 {
     margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .section-text p {
@@ -100,3 +107,30 @@ body {
 .box h3 {
     margin-bottom: 20px;
 }
+
+/**************************************************************/
+#rectangle {
+    width: 715px; /* largura do retângulo */
+    height: 170px; /* altura do retângulo */
+    border: 2px solid orange; /* borda laranja com espessura de 1px */
+    display: flex; /* permite que o conteúdo da div seja organizado em colunas */
+  }
+  
+  .column {
+    width: 50%; /* cada coluna ocupa 50% da largura do retângulo */
+    padding-left: 20px;
+  }
+  .left {
+    text-align: justify; /* alinhamento do texto à esquerda */
+  }
+  .right {
+    text-align: justify; /* alinhamento do texto à direita */
+  }
+  
+  .botaocurriculo{
+    width: 200px;
+    height: 25px;
+    border-radius: 7px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
